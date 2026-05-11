@@ -178,7 +178,6 @@ header ul a:hover{
     box-shadow: 0 0 15px #72a1de81;
 }
 
-/* Gradient Animation */
 .gradient{
     background: linear-gradient(to right,#00aaa7, #7e42a7, #6600c5, #6070fd,#2a46ff, #0099ff, #008ead);
     background-size: 200%;
@@ -232,12 +231,10 @@ header ul a:hover{
   .scroll-down::before {
     top: 30%;
     animation-delay: 0.5s;
-    /* animation: scroll-down 1s ease-in-out infinite; */
   }
   
   @keyframes scroll-down {
     0% {
-      /* top:20%; */
       opacity: 0;
     }
     30% {
@@ -507,7 +504,6 @@ header ul a:hover{
 
 
 
-/* Skills section */
 .skills-section{
     display: flex;
     flex-direction: column;
@@ -579,7 +575,6 @@ header ul a:hover{
     font-size: 50px;
 }
 
-/* SLIDER  */
 
 .slider{
     position: absolute;
@@ -631,7 +626,6 @@ header ul a:hover{
 }
 
 
-  /* CONTACT SECTION */
 .contact-section{
     width: 80%;
     height: 100vh;
@@ -720,7 +714,6 @@ header ul a:hover{
 }
 
 
-/* BLUR EFFECT ANIMAION */
 
 .autoBlur{
     animation: autoBlurAnimation linear both;
@@ -742,7 +735,6 @@ header ul a:hover{
 }
 
 
-/* AUTO DISPLAY ANIMAION */
 .autoDisplay{
     animation: autoDisplayAnimation both;
     animation-timeline: view();
@@ -761,7 +753,6 @@ header ul a:hover{
 }
 
 
-/* FADEIN_LEFT */
 
 .fadein-left{
     animation: fadeInLeftAnimation both;
@@ -857,7 +848,6 @@ header ul a:hover{
     }
 }
 
-/* Sidebar close ANimation */
 
 .sidebar.close-sidebar{
     animation: closeSideBarAnimation 1.5s forwards;
